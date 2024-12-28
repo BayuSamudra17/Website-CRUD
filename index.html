@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Buku - CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Manajemen Buku</h1>
+        </header>
+
+        <div class="form-container">
+            <input type="text" id="title" placeholder="Judul Buku" required />
+            <input type="text" id="author" placeholder="Penulis Buku" required />
+            <button id="addBook" class="btn add-btn">Tambah Buku</button>
+        </div>
+
+        <section class="book-list">
+            <h2>Daftar Buku</h2>
+            <ul id="bookList"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
